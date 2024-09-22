@@ -11,6 +11,7 @@
     <li><strong>Randomized Monthly Plan</strong>: Each meal plan is randomly generated to keep users engaged and encourage diverse eating habits.</li>
     <li><strong>Nutritional Breakdown</strong>: The application provides detailed nutritional information for each meal, helping users make informed choices.</li>
     <li><strong>User-Friendly Interface</strong>: Built with Flask, HTML, CSS, and JavaScript, the web app features an intuitive design that enhances user experience.</li>
+    <li><strong>Links to Recipes and Ingredients</strong>: Users can access detailed recipes and ingredient lists through direct links, making meal preparation easier.</li>
     <li><strong>Visualizations</strong>: Integrated Plotly visualizations offer insights into the nutritional content of the meal plans.</li>
 </ul>
 
