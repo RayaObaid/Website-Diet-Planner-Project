@@ -26,3 +26,9 @@
     Visit the web app in your browser to input your dietary preferences and receive a personalized meal plan. Explore various recipes and enjoy the journey to healthier eating!
 </p>
 
+![Screenshot (640)](https://github.com/user-attachments/assets/2a73af29-46ed-466c-b20e-b9e7a6dd1530)
+![Screenshot (643)](https://github.com/user-attachments/assets/70287550-b395-4c5a-a021-d15d016c214b)
+![Screenshot (644)](https://github.com/user-attachments/assets/a3f78ac3-5442-4b8e-aef7-fdf8bf8d3f2e)
+![Screenshot (642)](https://github.com/user-attachments/assets/ff2e9fe0-f1e9-4f76-a87c-d11f7e7841dc)
+![Screenshot (646)](https://github.com/user-attachments/assets/a581d901-282b-4833-9ffa-d0f7f4042a5c)
+![Screenshot (647)](https://github.com/user-attachments/assets/da4ae93a-1208-47a7-b5b4-5ddb875b19f1)
