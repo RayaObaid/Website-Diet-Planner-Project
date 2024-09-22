@@ -21,27 +21,8 @@
     <li><strong>APIs</strong>: Edamam API for recipe data and nutritional information</li>
 </ul>
 
-<h2>Installation</h2>
-<pre>
-1. Clone the repository:
-   <code>git clone https://github.com/RayaObaid/projects.git</code>
-2. Navigate to the project directory and install the required packages:
-   <code>cd diet-planner</code>
-   <code>pip install -r requirements.txt</code>
-3. Set up your Edamam API credentials in the application.
-4. Run the Flask app:
-   <code>python app.py</code>
-</pre>
-
 <h2>Usage</h2>
 <p>
     Visit the web app in your browser to input your dietary preferences and receive a personalized meal plan. Explore various recipes and enjoy the journey to healthier eating!
 </p>
 
-<h2>Future Enhancements</h2>
-<ul>
-    <li>Improved data handling and UI improvements</li>
-    <li>Integration of user feedback mechanisms</li>
-    <li>Addition of unit tests for better code reliability</li>
-    <li>More advanced visualizations for nutritional data</li>
-</ul>
