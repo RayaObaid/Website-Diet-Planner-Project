@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Generated Meal Plan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Generated Meal Plan</h1>
+    
+    <!-- Display the meal plan -->
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Breakfast</th>
+                <th>Lunch</th>
+                <th>Dinner</th>
+                <th>Snack</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for day, meals in meal_plan.items() %}
+            <tr>
+                <td>{{ day }}</td>
+                <td>
+                    {% if meals.Breakfast %}
+                        <a href="{{ meals.Breakfast.url }}">{{ meals.Breakfast.label }}</a><br>
+                        <img src="{{ meals.Breakfast.image }}" alt="Breakfast Image" width="100">
+                    {% else %}
+                        No breakfast available
+                    {% endif %}
+                </td>
+                <td>
+                    {% if meals.Lunch %}
+                        <a href="{{ meals.Lunch.url }}">{{ meals.Lunch.label }}</a><br>
+                        <img src="{{ meals.Lunch.image }}" alt="Lunch Image" width="100">
+                    {% else %}
+                        No lunch available
+                    {% endif %}
+                </td>
+                <td>
+                    {% if meals.Dinner %}
+                        <a href="{{ meals.Dinner.url }}">{{ meals.Dinner.label }}</a><br>
+                        <img src="{{ meals.Dinner.image }}" alt="Dinner Image" width="100">
+                    {% else %}
+                        No dinner available
+                    {% endif %}
+                </td>
+                <td>
+                    {% if meals.Snack %}
+                        <a href="{{ meals.Snack.url }}">{{ meals.Snack.label }}</a><br>
+                        <img src="{{ meals.Snack.image }}" alt="Snack Image" width="100">
+                    {% else %}
+                        No snack available
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Plotly chart -->
+    <div>{{ plot_div|safe }}</div>
+
+    <!-- Feedback link -->
+    <br>
+    <div>
+        <h3>We would love your feedback!</h3>
+        <a href="{{ url_for('feedback') }}">Give us your feedback</a>
+    </div>
+
+</body>
+</html>
